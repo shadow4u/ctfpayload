@@ -1,2 +1,2 @@
 admin@douyu.tv
-password=123
+password=1235677
