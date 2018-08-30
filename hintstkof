@@ -1,0 +1,7 @@
+unsafe_unlink	
+Exploiting free on a corrupted chunk to get arbitrary write.	
+libc< 2.2.6
+
+malloc malloc malloc free
+fake chunk =>unlink=>arbitrary write=>cover got=>leak addr=>calculate libc=>cover got =>system=>system bin sh
+always use pointer
